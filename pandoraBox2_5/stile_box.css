@@ -1,0 +1,320 @@
+/* 
+--------------------------------------------------------------------------------------------------------------------
+    FAVOR MANTER ESTE CSS ORGANIZADO! 
+--------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+Extilização do "SITE" ----------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+*/
+    /* Class universais ------------------------------------------------------------------------------------------*/
+    
+        .my_container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card-body{
+            margin: 0;
+            padding: 0px 0px;
+        }
+
+        .gb{
+            background-image: url(imagens/site_fundo-girl_wolf.jpg);
+            background-size: 100% 100%;
+            background-color: rgba(255,255,0,0.3);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+    /* Para todos sem class --------------------------------------------------------------------------------------*/
+
+        body{
+            margin: 0;
+            background-color: #111111;
+        }
+
+        b{
+            color: #ffffff;
+        }
+
+        p{
+            color: rgb(228, 228, 228);
+        }
+
+        button{
+            color: rgb(233, 233, 233);
+            background-color: rgb(37, 37, 37);
+            padding: 4px 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            margin-right: 5px;
+            display: inline-block;
+            border: 1px solid #000;
+        }
+            button:hover{
+                color: #9b0450;
+            }
+
+        header{ 
+            background-color: #000000e8;
+            width: 100%;
+            height: 70px;
+        }
+
+        section{
+            background-color: #000000be;
+            border: 1px solid #000;
+            border-radius: 8px;
+            margin: 170px 60px 250px 60px;
+            padding: 8px;
+        }
+
+        footer{ 
+            background-color: #000000;
+            width: 100%;
+            padding: 30px 0px;
+            text-align: center;
+            height: 250px;
+            border-top: 5px solid darkviolet;
+        }
+
+
+/*
+Extilizações das "CLASS" -------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+*/  
+    /* Class do "HEAD" -------------------------------------------------------------------------------------------*/
+
+        .logo{
+            float: left;
+            padding: 20px 40px;
+        }
+
+        .usuarioIncluir{
+            float: right;
+            margin-right: 65px;
+            margin-top: -70px;
+        }
+
+        .erroLogin{
+            float: right;
+            margin-top: 7px;
+            margin-right: 10px;
+            color: #049b04
+        }
+
+        .erro{
+            float: right;
+            margin-top: 0px;
+            margin-right: 20px;
+            color: #049b04
+        }
+
+        .menuHead{
+            float: right;
+        }
+            .menuHead ul{
+                list-style: none;
+                padding: 23px 10px;
+            }
+            .menuHead li{
+                display: inline;
+            }
+            .menuHead a{
+                text-decoration: none;
+                color: #e3e3e3;
+                padding: 6px 23.5px;
+            }
+                .menuHead a:hover{
+                    background-color: rgba(97, 97, 97, 0.075);
+                    border-right: 7px solid rgba(255, 0, 0, 0.438);
+                    border-radius: 5px;
+                    color: #9b0450;
+                    padding: 6px 20px;
+                }
+
+
+    /* Class da "HOME" -------------------------------------------------------------------------------------------*/
+
+        .Home{
+            height: 600px;
+            border-bottom: 5px solid #000;
+        }
+        .homeTitle{
+            color: rgb(255, 255, 255);
+            padding: 150px 100px;
+        }
+        .menuHome{
+            float: left;
+            border-radius: 10px;
+            margin: 35px 25px;
+        }
+            .menuHome ul{
+                float: left;
+                padding: 15px 0px;
+                margin: 0;
+            }
+            .menuHome li{
+                display: inline;
+                padding: 10px 5px;
+            }
+            .menuHome a{
+                padding: 6px 10px;
+                color: #ffffff;
+                text-decoration: none
+            }
+                .menuHome a:hover{
+                    border-top: 3px solid rgb(255, 255, 255);
+                    border-radius: 5px;
+                    color: rgb(255, 255, 255);
+                }
+
+        .homeMidia{
+            background-image: url(imagens/site_fundo-demon_slayer.jpg);
+            background-size: 100% 100%;
+            background-color: rgba(255,255,0,0.3);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            padding: 10px 10px;
+        }
+        .homeCardPendentes{
+            background-color: rgba(0, 0, 0, 0.829);
+            border: 1px solid darkviolet;
+            border-radius: 5px;
+            margin: 200px 20px 30px 90px;
+        }
+        .homeCardFavoritos{
+            background-color: rgba(0, 0, 0, 0.829);
+            border: 1px solid darkviolet;
+            border-radius: 5px;
+            margin: 200px 90px 70px 20px;
+        }
+
+
+    /* Class das "MIDIAS" ----------------------------------------------------------------------------------------*/
+
+        
+        .pendentesDetalhes{
+            border: 1px solid darkviolet;
+            margin-bottom: 10px;
+            background-color: rgba(0, 0, 0, 0.63);
+            border-radius: 10px;
+        }
+        
+        .midia{
+            width: 240px;
+            height: 340px;
+            margin: 35px 30px 100px 30px;
+        }
+            .midia a{
+                text-decoration: none;
+            }
+            .midia:hover{
+                transform: scale(1.1);
+            }
+            .midia .midia_img:hover{
+                color: #9b0450;
+            }
+
+        .midia_img{
+            width: 100%;
+            height: 340px;
+            border-radius: 5px;
+        }
+               .midia img:hover{
+                   opacity: 0.4;
+               }
+    
+        .midia_detalhes{
+            margin: -340px 0px 0px 5px;
+        }
+    
+        .midia_rodape{
+            background-color: #111111;
+            margin-top: 260px;
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+            .midia_rodape p{
+                padding: 15px 10px;
+            }
+
+
+    /* Class "DETALHES" ------------------------------------------------------------------------------------------*/
+    
+        .incluir{
+            float: right;
+            margin-top: -70px;
+        }
+            .incluir a{
+                text-decoration: none;
+            }
+
+        .detalhes{
+            background-color: #000000bd;
+            border: 1px solid #000;
+            border-radius: 5px;
+            margin-top: 250px;
+            margin-left: 70px;
+            margin-right: 30px;
+        }
+
+        .det_img{
+            margin-top: -80px;
+            margin-left: 20px;
+            width: 200px;
+            height: 350px;
+            border-radius: 5px;
+        }
+
+        .det_detalhes{
+            border-bottom: 3px solid #000;
+            border-top: 5px solid #000;
+            border-radius: 10px;
+            color: gray;
+            width: 180px;
+            margin-top: 15px;
+            margin-left: 30px;
+            margin-bottom: 40px;
+            padding: 5px 7px;
+        }
+
+        .det_descri{
+            border-bottom: 3px solid #000;
+            border-radius: 10px;
+            color: gray;
+            margin-top: 15px;
+            margin-right: 20px;
+            text-align: justify;
+        }
+
+        .det_title{
+            color: #e3e3e3;
+        }
+
+        .det_link{
+            text-align: center;
+            margin: 30px 0px 50px 0px;
+        }
+            .det_link a{
+                text-decoration: none;
+            }
+
+        .anime_detalhes{
+            width: 225px;
+            margin-left: 25px;
+        }
+
+
+        .delete_alterar{
+            margin-left: 15px;
+            margin-top: 40px;
+        }
+
+
