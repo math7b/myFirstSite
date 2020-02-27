@@ -1,5 +1,6 @@
 Tentando fazer um git com a ajuda da Udemy
 
-espero que funcione
+espero que funcione :/
 
-asdasdasf
+E não é que funcionou!?
+agora irei tentar atualizar a master!
