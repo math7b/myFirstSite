@@ -10,7 +10,7 @@
         <link href="stile_box.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-    <div class="gb" id="gb">
+    <div class="gb">
         <header>
             <div class="logo">
                 <a href="./?pagina=home">
